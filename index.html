@@ -5,41 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module task</title>
+    <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
     <style>
-        #background{        
+        .background{        
             position: absolute;
             width: 1920px;
             height: 500px;
             left: 0px;
-            top: 200px;
+            top: 100px;
             background-color: #ffffff;
         }
 
-        #rectangle{
+        .rectangle{
         position: absolute;
         width: 1170px;
         height: 300px;
         left: 375px;
-        top: 300px;
-
-        background: #000000;
+        top: 100px;
+        background: url(269.png);
         border-radius: 60px 0px;
         }
 
-        #BR{
+        .BR{
             position: absolute;
             width: 460px;
             height: 460px;
             left: 408px;
-            top: 200px;
+            /* top: 100px; */
             background: url(hamburger-veggie-burger.png)
         }
+
+        .title{
+            position: absolute;
+            width: 504px;
+            height: 49px;
+            left: 974px;
+            top: 151px;
+            font-family: 'Product Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 49px;
+
+            /* identical to box height */
+            color: #FFFFFF;
+        }
+
+        .text{
+            position: absolute;
+            width: 500px;
+            height: 45px;
+            left: 974px;
+            top: 215px;
+
+            font-family: 'Product Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            /* or 24px */
+            color: #888888;
+        }
+
+        .subcribeBox{
+            position: absolute;
+            width: 500px;
+            height: 60px;
+            left: 975px;
+            top: 289px;
+        }
+
+        .button1{
+            position: absolute;
+            width: 120px;
+            height: 50px;
+            left: 375px;
+            top: 5px;
+            background: #F16214;
+            border-radius: 13px;
+        }
+
+        .button1Text{
+            position: absolute;
+            width: 76px;
+            height: 24px;
+            top: 13px;
+            left: 22px;
+            font-family: 'Product Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            /* identical to box height, or 24px */
+            color: #FFFFFF;
+        }
+
+        .button2{
+            position: absolute;
+            width: 500px;
+            height: 60px;
+            /* left: 975px;
+            top: 289px; */
+            background: #FFFFFF;
+            border-radius: 13px;
+        }
+
+        .button2Text{
+            position: absolute;
+            width: 98px;
+            height: 20px;
+            left: 19px;
+            top: 20px;
+            font-family: 'Product Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 150%;
+            /* identical to box height, or 20px */
+            color: #CCCCCC;
+        }
+
     </style>
 </head>
 <body>
-    <div id="background"></div>
-    <div id="rectangle"></div>
-    <div id="BR"></div>
+    <div class="background">
+        <div class="rectangle"></div>
+        <div class="BR"></div>
+        <div class="title">Subcribe To Our Newsletter</div>
+        <div class="text">Email subsription is an opportunity to recevie an interting newsletter from a website. once a user fills in the subscription from on a website.</div>
+        <div class="subcribeBox">
+            <div class="button2">
+                <div class="button2Text">
+                    Type your email...
+                </div>
+            </div>
+            <div class="button1">
+                <div class="button1Text">
+                    SUBCRIBE
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
